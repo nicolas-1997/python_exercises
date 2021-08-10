@@ -11,7 +11,7 @@ def run():
         b = int(input("Enter the second number to multiply: "))
     except:
         print("You can only use number")
-
+        exit()
     print(f"{a} x {b} = ",multiply_no_multiply_symbol(a,b))
 
 
