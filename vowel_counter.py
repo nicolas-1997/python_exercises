@@ -1,7 +1,9 @@
 def vowel_counter(word):
     vowels = ["a", "e", "i", "o", "u"]
+    word = word.lower()
+    print(word)
     number_of_vowels = 0
-    
+
     for x in word:
         if x in vowels:
             number_of_vowels += 1
