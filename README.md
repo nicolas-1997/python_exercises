@@ -1,0 +1,1 @@
+Python exercises for a rainy afternoon and coffee
